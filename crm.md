@@ -2,7 +2,7 @@
 layout: page
 title: Docs
 menubar: crm_menu
-show_sidebar: false
+show_sidebar: true
 ---
 
 Bulma Clean Theme has many features available. The documentation has been spit into categories to make it easier to navigate through the various features. 
