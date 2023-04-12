@@ -74,3 +74,8 @@
   items:
     - name: Recipes
       link: /docs/recipes/recipes/
+
+- label: This Is CRM
+  items:
+    - name: crm
+      link: /crm/crm/
