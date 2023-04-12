@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Docs
-menubar: docs_menu
+menubar: crm_menu
 show_sidebar: false
 ---
 
