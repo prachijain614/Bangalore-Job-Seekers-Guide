@@ -2,7 +2,7 @@
 layout: page
 title: CRM Analytics
 subtitle: Lets Learn CRM
-menubar: docs_menu
+menubar: crm_menu
 show_sidebar: false
 toc: true
 ---
