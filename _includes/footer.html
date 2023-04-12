@@ -1,1 +1,22 @@
-<footer class="footer"> <div class="container"> {% if site.footer_menu %} <div class="columns"> <div class="column is-4"> <h2 class="title is-4">Project Title</h2> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel ligula nisl. Duis eu velit vitae enim pharetra bibendum.</p> </div> <div class="column is-4"> <h2 class="title is-4">Quick Links</h2> <ul> {% for item in site.data[site.footer_menu] %} <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li> {% endfor %} </ul> </div> <div class="column is-4"> <h2 class="title is-4">Donate/Support Us</h2> <p>If you like our work and want to support us, please consider making a donation.</p> <button class="button is-primary is-rounded">Donate Now</button> </div> </div> {% endif %} <div class="content is-small has-text-centered"> <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p> </div> </div> </footer>
+<footer class="footer"> 
+    <div class="container"> {% if site.footer_menu %} 
+        <div class="columns"> <div class="column is-4"> 
+            <h2 class="title is-4">Project Title</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel ligula nisl. Duis eu velit vitae enim pharetra bibendum.</p> 
+            </div>
+             <div class="column is-4">
+                 <h2 class="title is-4">Quick Links</h2>
+                 <ul> {% for item in site.data[site.footer_menu] %} 
+                    <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+                    </li> {% endfor %} </ul> </div> <div class="column is-4"> 
+                        <h2 class="title is-4">Donate/Support Us</h2> 
+                        <p>If you like our work and want to support us, please consider making a donation.</p>
+                         <button class="button is-primary is-rounded">Donate Now</button>
+                         </div> 
+                        </div> 
+                        {% endif %} 
+                         <div class="content is-small has-text-centered"> 
+                            <p class="">Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+                         </div>
+                        </div> 
+                    </footer>
