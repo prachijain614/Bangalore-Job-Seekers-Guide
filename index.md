@@ -5,7 +5,7 @@ layout: page
 callouts: home_callouts
 show_sidebar: true
 hero_image: https://namastesalesforce.com/wp-content/uploads/2023/03/Namaste-Salesforce-1.png
-video_url : https://ik.imagekit.io/ikmedia/videos/woman-walking.mp4
+youtube_link: https://www.youtube.com/watch?v=AbAKCvDP_IY
 ---
 
 # Bulma Clean Theme demo website
