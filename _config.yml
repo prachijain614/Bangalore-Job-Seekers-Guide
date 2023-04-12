@@ -6,7 +6,7 @@ email: your-email@domain.com
 description: >
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
 url: "https://salesforce.imswarnil.com"
-permalink: /:title/
+permalink: /:categories/:title/
 #favicon: /path/to/favicon.png
 gh_sponsor: chrisrhymes
 #hide_share_buttons: true
