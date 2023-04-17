@@ -5,7 +5,7 @@ layout: page
 callouts: home_callouts
 show_sidebar: true
 image: https://www.csrhymes.com/img/example-docs-page.jpg
-hero_image: https://media.giphy.com/headers/salesforce/ZcLcnBDRoGYW.gif
+hero_image: ../assets/gif/Header.gif
 ---
 
 # Bulma Clean Theme demo website
