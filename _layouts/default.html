@@ -50,8 +50,107 @@
             </div>
         </div>
     </section>
+      
+      
+      
+      <style>
+  .leaderboard {
+    width: 90%;
+    max-width: 728px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15), -8px 0px 8px rgba(0, 0, 0, 0.15), 8px 0px 8px rgba(0, 0, 0, 0.15);
+    position: relative;
+  }
 
-    <div class="card my-4">
+  .leaderboard .corner {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leaderboard .circle-solid {
+    top: -15px;
+    left: -15px;
+    background-color: #0288d1;
+    z-index: 1;
+  }
+
+  .leaderboard .circle-bordered {
+    top: -15px;
+    right: -15px;
+    border: 2px solid #0288d1;
+    z-index: 1;
+  }
+
+  .leaderboard .rectangle-solid {
+    bottom: -15px;
+    left: -15px;
+    background-color: #0288d1;
+    z-index: 1;
+  }
+
+  .leaderboard .rectangle-bordered {
+    bottom: -15px;
+    right: -15px;
+    border: 2px solid #0288d1;
+    z-index: 1;
+  }
+
+  @media(min-width: 500px) {
+    .leaderboard {
+      width: 90%;
+      max-width: 728px;
+      height: 90px;
+    }
+  }
+
+  @media(min-width: 800px) {
+    .leaderboard {
+      width: 90%;
+      max-width: 728px;
+      height: 90px;
+    }
+  }
+
+  @media(min-width: 1200px) {
+    .leaderboard {
+      width: 728px;
+      height: 90px;
+    }
+  }
+</style>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1291242080282540" crossorigin="anonymous"></script>
+
+<!-- leaderboard -->
+<ins class="adsbygoogle leaderboard"
+  data-ad-client="ca-pub-1291242080282540"
+  data-ad-slot="8939839370"
+  style="display:block; position: relative;"
+>
+  <div class="corner circle-solid"></div>
+  <div class="corner rectangle-bordered"></div>
+  <div class="corner circle-bordered"></div>
+  <div class="corner rectangle-solid"></div>
+</ins>
+
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!--     <div class="card my-4">
         <div class="card-content">
           <div class="content has-text-centered">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1291242080282540"
@@ -66,7 +165,7 @@
             </script>
           </div>
         </div>
-      </div>
+      </div> -->
       
 
     {% unless page.hide_footer %}
