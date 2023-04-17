@@ -51,7 +51,19 @@
         </div>
     </section>
       
-      
+    {% if page.url == "/" %}
+    <audio id="myAudio" preload="auto">
+      <source src="https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    {% endif %}
+    <script>
+      window.onload = function() {
+  var audio = document.getElementById("myAudio");
+  audio.play();
+};
+
+    </script>
       
       <style>
   .leaderboard {
