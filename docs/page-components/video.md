@@ -11,7 +11,7 @@ redirect_from:
 
 ## Example
 
-{% include youtube.html video="iRuJufELrWo" %}
+{% include youtube.html video="iRuJufELrWo" starttime=10 endtime=15 %}
 
 ## YouTube
 
