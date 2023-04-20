@@ -7,7 +7,9 @@ image: https://www.csrhymes.com/img/example-docs-page.jpg
 hero_image: ../img/Salesforce-hero.png
 ---
 
-# Bulma Clean Theme demo website
+# Welcome To Namaste Salesforce
+
+Looking to learn Salesforce? Join Namaste Salesforce Bootcamp, where we offer quality Salesforce tutorials and project-based learning. Our bootcamp starts from the basics and covers real-time examples to help you learn Salesforce at your own pace. With our comprehensive resources, you can gain the skills you need for the jobs of the future in the Salesforce ecosystem. Start your learning journey today!
 
 This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
 
