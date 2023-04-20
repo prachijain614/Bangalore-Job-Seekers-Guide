@@ -15,6 +15,23 @@ This website showcases the options for the Bulma Clean theme. The theme is avail
 ![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
 ![GitHub Repo stars](https://img.shields.io/github/stars/chrisrhymes/bulma-clean-theme?style=social)
 
+<div class="card">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <p class="image is-128x128">
+          <span class="emoji is-large" role="img" aria-label="Face with Tears of Joy">😂</span>
+        </p>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">😂 Face with Tears of Joy</p>
+        <p class="subtitle is-6">A laughing face with tears streaming down both cheeks.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 ## Ruby Gem
 
 The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
