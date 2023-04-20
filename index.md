@@ -27,63 +27,6 @@ The theme can be used with GitHub Pages by setting the `remote_theme` in your Je
 remote_theme: chrisrhymes/bulma-clean-theme
 ```
 
-<div class="container mx-auto py-8">
-  <div class="grid gap-4 px-4 md:grid-cols-3 lg:grid-cols-4">
-    <div class="card w-80 bg-base-100 shadow-xl">
-      <div class="card-body">
-        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-gray-100">
-          <span class="text-gray-400 text-4xl">💰</span>
-        </div>
-        <h2 class="card-title mt-4 text-lg font-medium text-gray-900">Calculator 1</h2>
-        <p class="card-text mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="card-actions justify-end">
-          <a href="#" class="btn btn-primary mt-4">Calculate</a>
-        </div>
-      </div>
-    </div>
-
-<div class="card w-80 bg-base-100 shadow-xl">
-      <div class="card-body">
-        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-gray-100">
-          <span class="text-gray-400 text-4xl">📈</span>
-        </div>
-        <h2 class="card-title mt-4 text-lg font-medium text-gray-900">Calculator 2</h2>
-        <p class="card-text mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="card-actions justify-end">
-          <a href="#" class="btn btn-primary mt-4">Calculate</a>
-        </div>
-      </div>
-    </div>
-
-<div class="card w-80 bg-base-100 shadow-xl">
-      <div class="card-body">
-        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-gray-100">
-          <span class="text-gray-400 text-4xl">💳</span>
-        </div>
-        <h2 class="card-title mt-4 text-lg font-medium text-gray-900">Calculator 3</h2>
-        <p class="card-text mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="card-actions justify-end">
-          <a href="#" class="btn btn-primary mt-4">Calculate</a>
-        </div>
-      </div>
-    </div>
-
-<div class="card w-80 bg-base-100 shadow-xl">
-      <div class="card-body">
-        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-gray-100">
-          <span class="text-gray-400 text-4xl">🏦</span>
-        </div>
-        <h2 class="card-title mt-4 text-lg font-medium text-gray-900">Calculator 4</h2>
-        <p class="card-text mt-2 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="card-actions justify-end">
-          <a href="#" class="btn btn-primary mt-4">Calculate</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
 ## Documentation
 
 For full instructions, please see the [Documentation](/bulma-clean-theme/docs/)
