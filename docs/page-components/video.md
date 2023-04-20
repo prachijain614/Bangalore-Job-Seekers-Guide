@@ -29,7 +29,7 @@ You can optionally include a start time in seconds. This works the same as the ?
 
 {% raw %}
 ```liquid
-{% include youtube.html video="videoid" time=210 %}
+{% include youtube.html video="videoid" starttime=10 endtime=15 %}
 ```
 {% endraw %}
 
