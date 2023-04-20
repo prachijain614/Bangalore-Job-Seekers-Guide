@@ -19,12 +19,12 @@ This website showcases the options for the Bulma Clean theme. The theme is avail
   <div class="card-content">
     <div class="media">
       <div class="media-left">
-        <p class="image is-128x128">
-          <span class="emoji is-large" role="img" aria-label="Face with Tears of Joy">😂</span>
-        </p>
+        <figure class="image is-128x128">
+          <span class="emoji is-size-1" role="img" aria-label="Face with Tears of Joy">😂</span>
+        </figure>
       </div>
       <div class="media-content">
-        <p class="title is-4">😂 Face with Tears of Joy</p>
+        <p class="title is-4 is-spaced">😂 Face with Tears of Joy</p>
         <p class="subtitle is-6">A laughing face with tears streaming down both cheeks.</p>
       </div>
     </div>
