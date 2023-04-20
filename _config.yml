@@ -1,9 +1,9 @@
 # Site Settings
 lang: en
-title: Namaste Salesforce
-tagline: Say Namaste To Salesforce 
+title: Swarnil Teaches Salesforce
+tagline: Learn Salesforce, Salesforce CRM Analytics & Salesforce UX Design From Swarnil
 email: admin@namastesalesforce.com
-description: Namaste Salesforce is a platform designed to help people upskill for jobs in the Salesforce ecosystem. As per reports, 1.1 billion jobs are expected to be created in India by 2022, and we want to empower people to take advantage of this growing opportunity. Our goal is to provide quality training and resources for anyone who wants to learn Salesforce and build a career in this field.
+description: Learn Salesforce along with me on Swarnil Teaches Salesforce! Access Salesforce tutorials, projects, notes, and resources on topics like Salesforce, CRM Analytics, and Salesforce UX design to grow your skills and start your journey today. Join my community and learn Salesforce with me. 
 url: "https://salesforce.imswarnil.com"
 permalink: /:categories/:title/
 #favicon: /path/to/favicon.png
