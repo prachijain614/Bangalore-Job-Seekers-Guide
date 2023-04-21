@@ -1,10 +1,13 @@
 ---
 title: Bulma Clean Theme
 subtitle: This is the demo site for Bulma Clean Theme
+hero_height: is-large
 layout: page
-callouts: home_callouts
+hero_link_text: Read More
+hero_link: /page-1/
 image: https://www.csrhymes.com/img/example-docs-page.jpg
 hero_image: ../img/Salesforce-hero.png
+show_sidebar: false
 ---
 
 # Welcome To Namaste Salesforce
