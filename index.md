@@ -1,10 +1,8 @@
 ---
 title: Bulma Clean Theme
 subtitle: This is the demo site for Bulma Clean Theme
-hero_height: is-large
+hero_height: is-medium
 layout: page
-hero_link_text: Read More
-hero_link: /page-1/
 image: https://www.csrhymes.com/img/example-docs-page.jpg
 hero_image: ../img/Salesforce-hero.png
 show_sidebar: false
