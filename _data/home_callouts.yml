@@ -1,8 +1,8 @@
 style: is-light
 items:
-  - title: Multiple page layouts
-    subtitle: Including sidebar, menubar, tabs and callouts
-    icon: fa-copy
+  - title: Idea
+    subtitle: Why Not Document My Salesforce Learning
+    icon: fa-lightbulb 
   - title: Blog included
     subtitle: Layouts for blog and post pages included
     icon: fa-mail-bulk
