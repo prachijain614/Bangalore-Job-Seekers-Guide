@@ -1,6 +1,6 @@
 ---
-title: Bulma Clean Theme
-subtitle: This is the demo site for Bulma Clean Theme
+title: Namaste Salesforce
+subtitle: Say Namaste To Salesforce
 hero_height: is-medium
 layout: page
 image: https://www.csrhymes.com/img/example-docs-page.jpg
