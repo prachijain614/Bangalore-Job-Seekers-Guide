@@ -4,7 +4,7 @@ subtitle: Say Namaste To Salesforce
 hero_height: is-medium
 layout: page
 image: https://www.csrhymes.com/img/example-docs-page.jpg
-hero_image: ../img/Salesforce-hero.png
+hero_image: ../img/CRM-Analytics-Training.png
 show_sidebar: false
 ---
 
