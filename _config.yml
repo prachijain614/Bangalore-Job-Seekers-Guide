@@ -1,15 +1,15 @@
 # Site Settings
 lang: en
 title: Bangalore Job Seekers Guide
-tagline: Say Namaste To Salesforce 
-email: admin@namastesalesforce.com
-description: Looking to learn Salesforce? Join Namaste Salesforce Bootcamp, where we offer quality Salesforce tutorials and project-based learning. Our bootcamp starts from the basics and covers real-time examples to help you learn Salesforce at your own pace. With our comprehensive resources, you can gain the skills you need for the jobs of the future in the Salesforce ecosystem. Start your learning journey today! 
+tagline: Your ultimate guide to job hunting in Bangalore
+email: contact@imswarnil.com
+description: Bangalore Job Seekers Guide is an open source project that aims to provide guidance and support to job seekers who are planning to move to Bangalore. Find your dream job in Bangalore with our step-by-step guide. Learn how to research the job market, network, and upskill for success. Perfect for fresher job seekers. Find your first job in Bangalore with our step-by-step guide.".
 url: "https://namastesalesforce.com"
 permalink: /:categories/:title/
 #favicon: /path/to/favicon.png
 gh_sponsor: imswarnil
 hide_share_buttons: false
-#theme_color: '#eeeeee'
+#theme_color: #eeeeee'
 fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 
