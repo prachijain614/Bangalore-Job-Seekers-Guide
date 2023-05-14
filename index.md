@@ -4,7 +4,7 @@ subtitle: Say Namaste To Salesforce
 hero_height: is-medium
 layout: page
 image: https://www.csrhymes.com/img/example-docs-page.jpg
-hero_image: ../img/Header.png
+hero_image: ../img/Bangalore-Job-Seekers-Guide-Hero-Header.png
 show_sidebar: false
 ---
 
