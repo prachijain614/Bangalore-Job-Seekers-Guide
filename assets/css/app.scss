@@ -3,3 +3,15 @@
 
 // Import Main CSS file from theme
 @import "main";
+.hero.is-primary .title {
+    color: #E53935;
+  }
+  
+  .hero.is-primary .subtitle {
+    color: #8c5c5b;
+  }
+  
+  .hero.is-primary .subtitle a:not(.button),
+  .hero.is-primary .subtitle strong {
+  color: #8c5c5b;
+  }
