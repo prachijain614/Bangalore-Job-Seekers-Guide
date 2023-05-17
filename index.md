@@ -4,7 +4,7 @@ subtitle: Get Job In Bangalore,
 hero_height: is-medium
 layout: page
 image: https://www.csrhymes.com/img/example-docs-page.jpg
-hero_image: ../img/Job.gif
+hero_image: ../img/Bangalore-Job -Seekers-Guide.gif
 show_sidebar: false
 ---
 
