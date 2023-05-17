@@ -1,10 +1,10 @@
 ---
-title: Namaste Salesforce
-subtitle: Say Namaste To Salesforce
+title: Bangalore Job Seekers Guide
+subtitle: Get Job In Bangalore, 
 hero_height: is-medium
 layout: page
 image: https://www.csrhymes.com/img/example-docs-page.jpg
-hero_image: ../img/hero.png
+hero_image: ../img/Job.gif
 show_sidebar: false
 ---
 
