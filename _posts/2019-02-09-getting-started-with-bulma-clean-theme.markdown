@@ -6,7 +6,7 @@ categories: development
 description: "Getting started with Bulma Clean Theme for Jekyll and using it with GitHub Pages"
 image: 'https://media1.giphy.com/media/lHaOPzWTwbIz5hr8FS/giphy.gif'
 published: true
-sidebar : false
+show_sidebar: false
 canonical_url: https://www.csrhymes.com/development/2019/02/09/getting-started-with-bulma-clean-theme.html
 ---
 
