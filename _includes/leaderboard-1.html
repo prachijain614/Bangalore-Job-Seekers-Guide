@@ -14,20 +14,66 @@
     position: relative;
   }
 
-  .leaderboard .style-one {
-    background-color: #e53935;
-    color: white;
-    font-size: 24px;
-    padding: 10px 20px;
-    border-radius: 10px;
+  .leaderboard .corner {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .leaderboard .style-two {
+  .leaderboard .circle-solid {
+    top: -15px;
+    left: -15px;
     background-color: #0288d1;
-    color: white;
-    font-size: 24px;
-    padding: 10px 20px;
-    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .leaderboard .circle-bordered {
+    top: -15px;
+    right: -15px;
+    border: 2px solid #0288d1;
+    z-index: 1;
+  }
+
+  .leaderboard .rectangle-solid {
+    bottom: -15px;
+    left: -15px;
+    background-color: #0288d1;
+    z-index: 1;
+  }
+
+  .leaderboard .rectangle-bordered {
+    bottom: -15px;
+    right: -15px;
+    border: 2px solid #0288d1;
+    z-index: 1;
+  }
+
+  @media(min-width: 500px) {
+    .leaderboard {
+      width: 90%;
+      max-width: 728px;
+      height: 90px;
+    }
+  }
+
+  @media(min-width: 800px) {
+    .leaderboard {
+      width: 90%;
+      max-width: 728px;
+      height: 90px;
+    }
+  }
+
+  @media(min-width: 1200px) {
+    .leaderboard {
+      width: 728px;
+      height: 90px;
+    }
   }
 </style>
 
@@ -39,8 +85,10 @@
   data-ad-slot="8939839370"
   style="display:block; position: relative;"
 >
-  <div class="style-one">Ad Style 1</div>
-  <div class="style-two">Ad Style 2</div>
+  <div class="corner circle-solid"></div>
+  <div class="corner rectangle-bordered"></div>
+  <div class="corner circle-bordered"></div>
+  <div class="corner rectangle-solid"></div>
 </ins>
 
 <script>
