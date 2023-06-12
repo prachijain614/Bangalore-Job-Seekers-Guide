@@ -2,8 +2,9 @@
 layout: default
 ---
 
-<div class="content">
+{% include leaderboard.html %}
 
+<div class="content">
     <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
 
     {% include post-ad-1.html %}
@@ -32,4 +33,4 @@ layout: default
   {% include disqus.html %}
 {% endif %}
 
-
+{% include leaderboard.html %}
