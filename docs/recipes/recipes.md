@@ -1,4 +1,22 @@
 ---
+layout: webseries
+title: Web Series Title
+description: Web series description goes here.
+url: https://example.com/webseries
+image: https://example.com/webseries-image.jpg
+genre: Drama
+director: John Doe
+number_of_episodes: 10
+video_id: VIDEO_ID
+prev_url: /webseries/previous-episode
+next_url: /webseries/next-episode
+---
+
+This is the content of the web series page.
+
+
+
+<!-- ---
 layout: page
 title: Recipes
 subtitle: Recipes
@@ -57,4 +75,4 @@ recipe_cuisine: Italian
 calories: 500 calories
 ```
 
-[View example Recipe page](/bulma-clean-theme/example-recipe)
+[View example Recipe page](/bulma-clean-theme/example-recipe) -->
