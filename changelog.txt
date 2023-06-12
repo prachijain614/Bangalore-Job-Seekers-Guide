@@ -154,4 +154,4 @@
 * Added hero background image, blog page images and Google Analytics
 
 # 0.1
-* Initial release
+* I Got Salesforce Stream release
