@@ -8,6 +8,8 @@ hero_image: /images.jpeg
 show_sidebar: false
 ---
 
+ {% include leaderboard-1.html %}
+
 # Welcome To Namaste Salesforce
 
 Looking to learn Salesforce? Join Namaste Salesforce Bootcamp, where we offer quality Salesforce tutorials and project-based learning. Our bootcamp starts from the basics and covers real-time examples to help you learn Salesforce at your own pace. With our comprehensive resources, you can gain the skills you need for the jobs of the future in the Salesforce ecosystem. Start your learning journey today!

@@ -6,11 +6,16 @@ layout: default
 
     <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
 
+    {% include post-ad-1.html %}
+
     {% if page.series %}
         {% include series.html %}
     {% endif %}
 
     {{ content }}
+
+    {% include post-ad-2.html %}
+
 </div>
 
 <div class="tags">
@@ -26,3 +31,5 @@ layout: default
 {% if site.disqus.shortname %}
   {% include disqus.html %}
 {% endif %}
+
+
