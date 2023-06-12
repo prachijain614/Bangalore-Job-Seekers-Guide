@@ -14,27 +14,20 @@
     position: relative;
   }
 
-  .leaderboard .corner {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .leaderboard .style-one {
+    background-color: #e53935;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 10px;
   }
 
-  .leaderboard .triangle-solid {
-    border-width: 0 25px 43.3px 25px;
-    border-color: transparent transparent #e53935 transparent;
-    z-index: 1;
-  }
-
-  .leaderboard .triangle-bordered {
-    border-width: 0 25px 43.3px 25px;
-    border-color: transparent transparent #e53935 transparent;
-    border-style: solid;
-    z-index: 1;
+  .leaderboard .style-two {
+    background-color: #0288d1;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 10px;
   }
 </style>
 
@@ -46,10 +39,8 @@
   data-ad-slot="8939839370"
   style="display:block; position: relative;"
 >
-  <div class="corner triangle-solid" style="transform: rotate(45deg); width: 50px; height: 86.6px; top: 0; left: 0;"></div>
-  <div class="corner triangle-bordered" style="transform: rotate(-45deg); width: 50px; height: 86.6px; top: 0; right: 0;"></div>
-  <div class="corner triangle-solid" style="transform: rotate(45deg); width: 50px; height: 86.6px; bottom: 0; right: 0;"></div>
-  <div class="corner triangle-bordered" style="transform: rotate(-45deg); width: 50px; height: 86.6px; bottom: 0; left: 0;"></div>
+  <div class="style-one">Ad Style 1</div>
+  <div class="style-two">Ad Style 2</div>
 </ins>
 
 <script>
