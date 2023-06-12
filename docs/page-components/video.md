@@ -17,6 +17,10 @@ redirect_from:
 
 To embed the YouTube video, include the youtube.html where you want the video to appear and then pass in the YouTube id as the video variable. 
 
+{% include youtube.html video="iRuJufELrWo" starttime=10 endtime=15 vtitle="This is a demo video" description="Jekyll Video Demonstration for my project" category="Education" requiresSubscription="Free" %}
+
+
+
 {% raw %}
 ```liquid
 {% include youtube.html video="videoid" %}
