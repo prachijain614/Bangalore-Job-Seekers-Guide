@@ -62,81 +62,114 @@
   var audio = document.getElementById("myAudio");
   audio.play();
 };
-</script>
-<style>
-    .leaderboard {
-      position: relative;
-      width: 320px;
-      height: 50px;
-      margin: 0 auto;
-      text-align: center;
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-    }
-    
-    .leaderboard:before,
-    .leaderboard:after {
-      content: "";
-      position: absolute;
-      top: 0;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-color: transparent;
-      z-index: 1;
-    }
-    
-    .leaderboard:before {
-      left: -10px;
-      border-width: 25px 0 25px 10px;
-      border-right-color: #E53935;
-    }
-    
-    .leaderboard:after {
-      right: -10px;
-      border-width: 25px 10px 25px 0;
-      border-left-color: #E53935;
-    }
-    
-    @media (min-width: 500px) {
-      .leaderboard {
-        width: 320px;
-        height: 100px;
-      }
-      
-      .leaderboard:before,
-      .leaderboard:after {
-        border-width: 50px 0 50px 20px;
-      }
-    }
-    
-    @media (min-width: 800px) {
-      .leaderboard {
-        width: 728px;
-        height: 90px;
-      }
-      
-      .leaderboard:before,
-      .leaderboard:after {
-        border-width: 45px 15px;
-      }
-    }
-    </style>
-    
-    <div class="leaderboard">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
-    
-      <!-- leaderboard -->
-      <ins class="adsbygoogle leaderboard"
-           data-ad-client="ca-pub-1291242080282540"
-           data-ad-slot="8539588233"
-           style="display:block"
-      ></ins>
-    
-      <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    </div>
-    
+
+    </script>
+         
+
+         <style>
+            .leaderboard {
+              position: relative;
+              width: 320px;
+              height: 50px;
+              margin: 0 auto;
+              text-align: center;
+              box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+            }
+            
+            .leaderboard:before,
+            .leaderboard:after,
+            .play-button {
+              content: "";
+              position: absolute;
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-color: transparent;
+            }
+            
+            .play-button {
+              border-width: 0 25px 43.3px 25px;
+              border-top-color: #E53935;
+              transform-origin: center;
+              transition: transform 0.3s ease-in-out;
+            }
+            
+            .leaderboard:before {
+              left: -45px;
+              top: -43.3px;
+              border-width: 0 50px 86.6px 50px;
+              border-bottom-color: #E53935;
+            }
+            
+            .leaderboard:after {
+              right: -45px;
+              top: -43.3px;
+              border-width: 0 50px 86.6px 50px;
+              border-bottom-color: #E53935;
+            }
+            
+            @media (min-width: 500px) {
+              .leaderboard {
+                width: 320px;
+                height: 100px;
+              }
+              
+              .leaderboard:before,
+              .leaderboard:after {
+                border-width: 0 100px 173.2px 100px;
+              }
+              
+              .play-button {
+                border-width: 0 50px 86.6px 50px;
+              }
+            }
+            
+            @media (min-width: 800px) {
+              .leaderboard {
+                width: 728px;
+                height: 90px;
+              }
+              
+              .leaderboard:before,
+              .leaderboard:after {
+                border-width: 0 130px 225.9px 130px;
+              }
+              
+              .play-button {
+                border-width: 0 65px 112.9px 65px;
+              }
+            }
+            </style>
+            
+            <div class="leaderboard">
+              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
+            
+              <!-- leaderboard -->
+              <ins class="adsbygoogle leaderboard"
+                   data-ad-client="ca-pub-1291242080282540"
+                   data-ad-slot="8539588233"
+                   style="display:block"
+              ></ins>
+            
+              <script>
+                function getRandomRotation() {
+                  return Math.floor(Math.random() * 360);
+                }
+            
+                function addPlayButton(container) {
+                  const playButton = document.createElement('div');
+                  playButton.classList.add('play-button');
+                  playButton.style.transform = `rotate(${getRandomRotation()}deg)`;
+                  container.appendChild(playButton);
+                }
+            
+                const leaderboard = document.querySelector('.leaderboard');
+                addPlayButton(leaderboard);
+            
+                (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            </div>
+            
 
     {% unless page.hide_footer %}
         {% include footer.html %}
