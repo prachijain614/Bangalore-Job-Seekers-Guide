@@ -6,6 +6,7 @@ layout: page
 # image: https://www.csrhymes.com/img/example-docs-page.jpg
 # hero_image: /images.jpeg
 show_sidebar: false
+video: true
 videoid: so6dWaQxYvQ
 hero_link_text: Quick Start
 ---
