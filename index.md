@@ -10,7 +10,6 @@ video: true
 videoid: STlUHRi_1GQ
 hero_link: /page-1/
 hero_link_text: Example Call To Action
-callouts: example_callouts
 ---
 
 # Welcome To Namaste Salesforce
