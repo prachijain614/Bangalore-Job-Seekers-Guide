@@ -10,6 +10,7 @@ features:
   - label: Great addition to any career
     icon: fa-location-arrow
   - label: Comprehensive curriculum
+show_sidebar : false
 ---
 
 This is the content about the product.
