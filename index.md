@@ -6,6 +6,7 @@ layout: page
 # image: https://www.csrhymes.com/img/example-docs-page.jpg
 # hero_image: /images.jpeg
 show_sidebar: false
+videoid: so6dWaQxYvQ
 ---
 
 # Welcome To Namaste Salesforce
