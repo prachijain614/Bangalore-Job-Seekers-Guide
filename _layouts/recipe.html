@@ -4,63 +4,6 @@ layout: default
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
-  "@type": "WebSeries",
-  "name": "{{ page.title }}",
-  "description": "{{ page.description }}",
-  "url": "{{ page.url }}",
-  "image": "{{ page.image }}",
-  "genre": "{{ page.genre }}",
-  "director": {
-    "@type": "Person",
-    "name": "{{ page.director }}"
-  },
-  "numberOfEpisodes": "{{ page.number_of_episodes }}",
-  "episode": [
-    {% for episode in site.webseries %}
-    {
-      "@type": "TVEpisode",
-      "name": "{{ episode.title }}",
-      "description": "{{ episode.description }}",
-      "url": "{{ episode.url }}",
-      "image": "{{ episode.image }}",
-      "partOfSeason": "{{ episode.season }}"
-    }
-    {% if forloop.last == false %},{% endif %}
-    {% endfor %}
-  ]
-}
-</script>
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.video_id }}" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <h2>{{ page.title }}</h2>
-      <p>{{ page.description }}</p>
-      <p>Genre: {{ page.genre }}</p>
-      <p>Director: {{ page.director }}</p>
-      <p>Number of Episodes: {{ page.number_of_episodes }}</p>
-      <p><a href="{{ page.prev_url }}">Previous</a> | <a href="{{ page.next_url }}">Next</a></p>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-<!-- ---
-layout: default
----
-
-<script type="application/ld+json">
-{
     "@context": "https://schema.org/",
     "@type": "Recipe",
     "name": "{{ page.title }}",
@@ -152,4 +95,4 @@ layout: default
             {{ content }}
         </div>
     </div>
-</div> -->
+</div>
