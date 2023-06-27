@@ -5,7 +5,7 @@ subtitle: Getting Started
 menubar: docs_menu
 show_sidebar: false
 toc: true
-next_url: /google/
+next_url: docs
 ---
 
 ## General Configuration
