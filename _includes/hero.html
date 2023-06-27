@@ -1,7 +1,8 @@
+{% if page.video %}
 <section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-info">
     <div class="hero-video-container">
         <div class="hero-video">
-            <iframe id="hero-video-iframe" width="100%" height="100%" src="https://www.youtube.com/embed/{{ page.videoid }}?autoplay=1&controls=0&loop=1&mute=1&showinfo=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe id="hero-video-iframe" width="100%" height="100%" src="https://www.youtube.com/embed/{{ page.youtube_video_id }}?autoplay=1&controls=0&loop=1&mute=1&showinfo=0&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
     </div>
     <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
@@ -13,9 +14,9 @@
             {% endif %}
         </div>
     </div>
-</section> -->
-
-<!-- <section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-info" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
+</section>
+{% else %}
+<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-info" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
     <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
         <div class="container">
             <h1 class="title is-2">{{ page.title }}</h1>
@@ -25,4 +26,5 @@
             {% endif %}
         </div>
     </div>
-</section> 
+</section>
+{% endif %}
