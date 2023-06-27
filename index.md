@@ -8,7 +8,8 @@ hero_image: /images.jpeg
 show_sidebar: false
 video: true
 videoid: STlUHRi_1GQ
-hero_link_text: Quick Start
+hero_link: /page-1/
+hero_link_text: Example Call To Action
 callouts: example_callouts
 ---
 
