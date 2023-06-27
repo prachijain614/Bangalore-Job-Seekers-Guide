@@ -3,8 +3,8 @@ title: Bangalore Job Seekers Guide
 subtitle: Bangalore Job Seekers Guide is an open source project that aims to provide guidance and support to job seekers who are planning to move to Bangalore. As someone who has been through the process, I understand the struggles and challenges that come with job hunting.
 hero_height: is-large
 layout: page
-image: https://www.csrhymes.com/img/example-docs-page.jpg
-hero_image: /images.jpeg
+# image: https://www.csrhymes.com/img/example-docs-page.jpg
+# hero_image: /images.jpeg
 show_sidebar: false
 ---
 
