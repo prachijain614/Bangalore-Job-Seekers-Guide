@@ -9,6 +9,7 @@ show_sidebar: false
 video: true
 videoid: so6dWaQxYvQ
 hero_link_text: Quick Start
+callouts: example_callouts
 ---
 
 # Welcome To Namaste Salesforce
