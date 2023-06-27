@@ -7,6 +7,7 @@ layout: page
 # hero_image: /images.jpeg
 show_sidebar: false
 videoid: so6dWaQxYvQ
+hero_link_text: Quick Start
 ---
 
 # Welcome To Namaste Salesforce
