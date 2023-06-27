@@ -11,6 +11,7 @@ features:
     icon: fa-location-arrow
   - label: Comprehensive curriculum
 show_sidebar : false
+course_by : Pluralsight
 ---
 
 This is the content about the product.
