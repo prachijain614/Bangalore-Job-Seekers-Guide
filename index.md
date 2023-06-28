@@ -1,6 +1,6 @@
 ---
-title: The Bangalore Job Seekers - By Swarnil
-subtitle: "College Graduates, Ignite the Flame,  Rise from Unemployment, Embrace Corporate Fame! "
+title: Bangalore Job Seekers 
+subtitle: College Graduates, Ignite the Flame,  Rise from Unemployment, Embrace Corporate Fame! 
 hero_height: is-medium
 layout: page
 image: https://www.csrhymes.com/img/example-docs-page.jpg
@@ -10,6 +10,7 @@ show_sidebar: false
 # videoid: STlUHRi_1GQ
 hero_link: /page-1/
 hero_link_text: Example Call To Action
+navigation: false
 ---
 
 # Welcome Job Seeker / College Graduate 
