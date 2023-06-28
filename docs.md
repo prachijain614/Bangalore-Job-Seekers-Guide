@@ -1,12 +1,10 @@
 ---
 layout: docs
 title: Docs
-# menubar: docs_menu
+menubar: docs_menu
 show_sidebar: false
+hide_hero: true
 ---
-
-{% include icon-card.html icon="home" title="Title" description="This is description" %}
-
 
 Bulma Clean Theme has many features available. The documentation has been spit into categories to make it easier to navigate through the various features. 
 
