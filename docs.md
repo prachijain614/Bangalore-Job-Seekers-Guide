@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Docs
-menubar: docs_menu
 show_sidebar: false
 hide_hero: true
 ---
