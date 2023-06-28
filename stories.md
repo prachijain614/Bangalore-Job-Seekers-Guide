@@ -1,7 +1,7 @@
 ---
 title: Stories
 subtitle: Check out Stories 
-layout: product-category
+layout: stories
 show_sidebar: false
 sort: price
 ---
