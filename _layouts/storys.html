@@ -9,9 +9,9 @@ show_sidebar: false
     {{ page.content }}
   </div>
 
-  {% assign sorted_stories = site.stories | sort:page.sort %}
+  {% assign sorted_storys = site.storys %}
 
-  {% for stories in sorted_stories %}
+  {% for storys in sorted_storys %}
   <div class="column is-3-desktop is-6-tablet">
 
     <a href="{{ story.url | relative_url }}">
