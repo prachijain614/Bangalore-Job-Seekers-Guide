@@ -1,6 +1,6 @@
 ---
-title: Bangalore Job Seekers Guide
-subtitle: Bangalore Job Seekers Guide is an open source project that aims to provide guidance and support to job seekers who are planning to move to Bangalore. As someone who has been through the process, I understand the struggles and challenges that come with job hunting.
+title: The Bangalore Job Seekers - By Swarnil
+subtitle: "College Graduates, Ignite the Flame,  Rise from Unemployment, Embrace Corporate Fame! "
 hero_height: is-large
 layout: page
 image: https://www.csrhymes.com/img/example-docs-page.jpg
@@ -12,9 +12,11 @@ hero_link: /page-1/
 hero_link_text: Example Call To Action
 ---
 
-# Welcome To Namaste Salesforce
+# Welcome Job Seeker / College Graduate 
 
-Looking to learn Salesforce? Join Namaste Salesforce Bootcamp, where we offer quality Salesforce tutorials and project-based learning. Our bootcamp starts from the basics and covers real-time examples to help you learn Salesforce at your own pace. With our comprehensive resources, you can gain the skills you need for the jobs of the future in the Salesforce ecosystem. Start your learning journey today!
+Bangalore Job Seekers Guide is an open source project that aims to provide guidance and support to job seekers who are planning to move to Bangalore. As someone who has been through the process, I understand the struggles and challenges that come with job hunting.
+
+<!-- Looking to learn Salesforce? Join Namaste Salesforce Bootcamp, where we offer quality Salesforce tutorials and project-based learning. Our bootcamp starts from the basics and covers real-time examples to help you learn Salesforce at your own pace. With our comprehensive resources, you can gain the skills you need for the jobs of the future in the Salesforce ecosystem. Start your learning journey today! -->
 
 This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
 
