@@ -77,9 +77,3 @@ collections:
     layout: product
     image: https://via.placeholder.com/800x600
     show_sidebar: false
-   stories:
-    output: true
-    layout: story
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
-
