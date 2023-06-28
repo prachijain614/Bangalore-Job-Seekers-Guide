@@ -19,18 +19,39 @@
   <body>
     {% include header.html %}
     <section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-primary" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
-      <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
-          <div class="container has-text-centered">
-            <i class="is-large fab fa-discord" aria-hidden="true"></i>
-            <i class="is-large fas fa-code" aria-hidden="true"></i>
-              <h1 class="title is-2 has-text-info has-text-centered">{{ page.title }}</h1>
-              <p class="subtitle is-3 has-text-info has-text-centered">{{ page.subtitle }}</p>
-              {% if page.hero_link %}
+        <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
+          <div class="container">
+            <div class="columns is-multiline is-vcentered">
+              <div class="column is-7">
+                <div class="has-text-centered">
+                  <h1 class="title is-2 has-text-info">{{ page.title }}</h1>
+                  <p class="subtitle is-3 has-text-info">{{ page.subtitle }}</p>
+                  {% if page.hero_link %}
                   <a href="{{ page.hero_link | relative_url }}" class="button is-primary is-medium">{{ page.hero_link_text }}</a>
-              {% endif %}
+                  {% endif %}
+                </div>
+              </div>
+              <div class="column is-5">
+                <div class="adsense-ad">
+                  <!-- Google AdSense ad code -->
+                  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1291242080282540" crossorigin="anonymous"></script>
+                  <!-- Square (Responsive) -->
+                  <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-1291242080282540"
+                    data-ad-slot="7663977887"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                  <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
+                </div>
+              </div>
+            </div>
           </div>
-      </div>
-  </section>
+        </div>
+      </section>
+      
     {% include callouts.html %}
     <section class="section">
         <div class="container">
