@@ -1,7 +1,7 @@
 ---
-title: Storys
+title: Stories
 subtitle: Check out Stories 
-layout: storys
+layout: stories
 show_sidebar: false
 ---
 
