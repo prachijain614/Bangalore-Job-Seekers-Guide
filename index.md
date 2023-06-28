@@ -1,5 +1,5 @@
 ---
-title: Bangalore Job Seekers 
+title: Bangalore Job Seekers
 subtitle: College Graduates, Ignite the Flame,  Rise from Unemployment, Embrace Corporate Fame! 
 hero_height: is-medium
 layout: page
