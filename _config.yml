@@ -6,7 +6,7 @@ email: contact@imswarnil.com
 description: Bangalore Job Seekers Guide is an open source project that aims to provide guidance and support to job seekers who are planning to move to Bangalore. Find your dream job in Bangalore with our step-by-step guide. Learn how to research the job market, network, and upskill for success. Perfect for fresher job seekers. Find your first job in Bangalore with our step-by-step guide.".
 url: "https://bangalorejobseekers.imswarnil.com/"
 permalink: /:categories/:title/
-favicon: /img/Bangalore-Job-Seekers-Guide-white.png
+favicon: /img/bangalore-job-seekers-512x512.png
 gh_sponsor: imswarnil
 hide_share_buttons: false
 #theme_color: #eeeeee'
