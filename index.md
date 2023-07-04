@@ -91,3 +91,5 @@ This demo site showcases the available page layout options.
 JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
 
 [![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
+
+{% include leaderboard.html %}
