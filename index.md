@@ -28,10 +28,11 @@ Bangalore Job Seekers Guide is an open source project that aims to provide guida
       </div>
       <div class="column is-3">
         <div class="has-text-centered">
+           <div class="box">
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1291242080282540" crossorigin="anonymous"></script>
           <!-- Square (Responsive) -->
           <ins class="adsbygoogle"
-               style="display:block; padding: 20px;"
+               style="display:block; width: 250px; height: 250px; border-left: 10px solid #000; border-right: 10px solid #000; border-radius: 10px; background-color: #FFEAEA; padding: 20px;"
                data-ad-client="ca-pub-1291242080282540"
                data-ad-slot="7663977887"
                data-ad-format="auto"
@@ -39,6 +40,7 @@ Bangalore Job Seekers Guide is an open source project that aims to provide guida
           <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
+        </div>
         </div>
       </div>
     </div>
