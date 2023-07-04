@@ -20,6 +20,7 @@
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJLX7V9"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
   <!-- End Google Tag Manager (noscript) -->
     {% include header.html %}
     {% unless page.hide_hero %}
@@ -51,30 +52,13 @@
 
                 {% if site.posts and page.show_sidebar %}
                 <div class="column is-4-desktop is-4-tablet">
-                  <div class='onesignal-customlink-container'></div>
                     {% include latest-posts.html %}
                 </div>
                 {% endif %}
             </div>
         </div>
     </section>
-      
-    <!-- {% if page.url == "/" %}
-    <audio id="myAudio" preload="auto">
-      <source src="assets/audio/Bangalore-Job-Seeker-Audio.mp3" type="audio/mp3">
-      Your browser does not support the audio element.
-    </audio>
-    {% endif %}
-    <script>
-      window.onload = function() {
-  var audio = document.getElementById("myAudio");
-  audio.play();
-};    </script> -->
-         
-
-            
-      
-
+    
     {% unless page.hide_footer %}
         {% include footer.html %}
     {% endunless %}
