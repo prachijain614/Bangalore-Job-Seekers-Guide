@@ -22,16 +22,16 @@ Bangalore Job Seekers Guide is an open source project that aims to provide guida
 <section class="section">
   <div class="container">
     <div class="columns">
-      <div class="column is-8">
+      <div class="column is-9">
         <h1 class="title">Heading</h1>
         <p>Paragraph content goes here.</p>
       </div>
-      <div class="column is-4">
+      <div class="column is-3">
         <div class="has-text-centered">
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1291242080282540" crossorigin="anonymous"></script>
           <!-- Square (Responsive) -->
           <ins class="adsbygoogle"
-               style="display:block; padding: 10px;"
+               style="display:block; padding: 20px;"
                data-ad-client="ca-pub-1291242080282540"
                data-ad-slot="7663977887"
                data-ad-format="auto"
