@@ -19,6 +19,33 @@ Bangalore Job Seekers Guide is an open source project that aims to provide guida
 
 <!-- Looking to learn Salesforce? Join Namaste Salesforce Bootcamp, where we offer quality Salesforce tutorials and project-based learning. Our bootcamp starts from the basics and covers real-time examples to help you learn Salesforce at your own pace. With our comprehensive resources, you can gain the skills you need for the jobs of the future in the Salesforce ecosystem. Start your learning journey today! -->
 
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8">
+        <h1 class="title">Heading</h1>
+        <p>Paragraph content goes here.</p>
+      </div>
+      <div class="column is-4">
+        <div class="has-text-centered">
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1291242080282540" crossorigin="anonymous"></script>
+          <!-- Square (Responsive) -->
+          <ins class="adsbygoogle"
+               style="display:block; padding: 10px;"
+               data-ad-client="ca-pub-1291242080282540"
+               data-ad-slot="7663977887"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
 
 [![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
