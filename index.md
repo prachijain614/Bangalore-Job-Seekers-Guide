@@ -52,26 +52,6 @@ This website showcases the options for the Bulma Clean theme. The theme is avail
 ![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
 ![GitHub Repo stars](https://img.shields.io/github/stars/chrisrhymes/bulma-clean-theme?style=social)
 
-<div class="container">
-  <h1 class="title has-text-centered">Emojis</h1>
-  <p class="subtitle has-text-centered">Here are some fun emojis!</p>
-  <div class="columns is-mobile is-centered">
-    <div class="column has-text-centered">
-      <span class="emoji is-size-3" role="img" aria-label="Smiling Face with Smiling Eyes">😊</span>
-      <p class="is-size-5 has-text-weight-bold">Smiling Face with Smiling Eyes</p>
-    </div>
-    <div class="column has-text-centered">
-      <span class="emoji is-size-4" role="img" aria-label="Thumbs Up">👍</span>
-      <p class="is-size-5 has-text-weight-bold">Thumbs Up</p>
-    </div>
-    <div class="column has-text-centered">
-      <span class="emoji is-size-5" role="img" aria-label="Heart Eyes">😍</span>
-      <p class="is-size-5 has-text-weight-bold">Heart Eyes</p>
-    </div>
-  </div>
-</div>
-
-
 
 ## Ruby Gem
 
