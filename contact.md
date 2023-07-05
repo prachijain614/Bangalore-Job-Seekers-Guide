@@ -2,11 +2,10 @@
 title: Contact Me
 subtitle: If you want to contact me for queries, consultation you can contact. 
 hero_height: is-small
-layout: red
+layout: home
 image: https://www.csrhymes.com/img/example-docs-page.jpg
 show_sidebar: false
-# video: true
-# videoid: STlUHRi_1GQ
+videoid: STlUHRi_1GQ
 hero_link: /page-1/
 hero_link_text: Example Call To Action
 navigation: false
