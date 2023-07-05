@@ -4,7 +4,6 @@ subtitle: If you want to contact me for queries, consultation you can contact.
 hero_height: is-medium
 layout: red
 image: https://www.csrhymes.com/img/example-docs-page.jpg
-hero_image: /images.jpeg
 show_sidebar: false
 # video: true
 # videoid: STlUHRi_1GQ
