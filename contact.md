@@ -1,7 +1,7 @@
 ---
 title: Contact Me
 subtitle: If you want to contact me for queries, consultation you can contact. 
-hero_height: is-medium
+hero_height: is-small
 layout: red
 image: https://www.csrhymes.com/img/example-docs-page.jpg
 show_sidebar: false
